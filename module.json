@@ -3,7 +3,7 @@
     "title": "Enhanced SRD",
     "description": "A collection of content",
     "version": "1.0.0",
-    "author": "Local Wizard",
+    "authors": "Local Wizard",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
     "packs": [
@@ -11,105 +11,112 @@
             "name": "esrd-creatures",
             "label": "Creatures (ESRD)",
             "path": "./packs/esrd-creatures.db",
-            "entity": "Actor"
+            "type": "Actor"
         },
         {
             "name": "esrd-actions",
             "label": "Actions (ESRD)",
             "path": "./packs/esrd-actions.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-backgrounds",
             "label": "Backgrounds (ESRD)",
             "path": "./packs/esrd-backgrounds.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-class-features",
             "label": "Class Features (ESRD)",
             "path": "./packs/esrd-class-features.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-classes-subclasses",
             "label": "Classes & Subclasses (ESRD)",
             "path": "./packs/esrd-classes-subclasses.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-conditions-diseases",
             "label": "Conditions & Diseases (ESRD)",
             "path": "./packs/esrd-conditions-diseases.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-cults-supernatural-boons",
             "label": "Cults & Supernatural Boons (ESRD)",
             "path": "./packs/esrd-cults-supernatural-boons.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-feats",
             "label": "Feats (ESRD)",
             "path": "./packs/esrd-feats.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-items",
             "label": "Items (ESRD)",
             "path": "./packs/esrd-items.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-other-features",
             "label": "Other Options & Features (ESRD)",
             "path": "./packs/esrd-other-features.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-races",
             "label": "Races (ESRD)",
             "path": "./packs/esrd-races.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-spells",
             "label": "Spells (ESRD)",
             "path": "./packs/esrd-spells.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "esrd-deities",
             "label": "Deities (ESRD)",
             "path": "./packs/esrd-deities.db",
-            "entity": "JournalEntry"
+            "type": "JournalEntry"
         },
         {
             "name": "esrd-languages",
             "label": "Languages (ESRD)",
             "path": "./packs/esrd-languages.db",
-            "entity": "JournalEntry"
+            "type": "JournalEntry"
         },
         {
             "name": "esrd-optional-rules",
             "label": "Optional & Variant Rules (ESRD)",
             "path": "./packs/esrd-optional-rules.db",
-            "entity": "JournalEntry"
+            "type": "JournalEntry"
         },
         {
             "name": "esrd-recipes",
             "label": "Recipes (ESRD)",
             "path": "./packs/esrd-recipes.db",
-            "entity": "JournalEntry"
+            "type": "JournalEntry"
         },
         {
             "name": "esrd-tables",
             "label": "Tables (ESRD)",
             "path": "./packs/esrd-tables.db",
-            "entity": "RollTable"
+            "type": "RollTable"
         }
     ],
     "manifest": "https://github.com/Deltinum/enhanced-srd/raw/main/module.json",
     "download": "https://github.com/Deltinum/enhanced-srd/raw/main/enhanced-srd.zip"
-  }
+    "systems": [
+        {
+          "id": "dnd5e",
+          "type": "system",
+          "compatability": {}
+        }
+    ]
+}
