@@ -1,148 +1,158 @@
 {
-    "id": "enhanced-srd",
     "title": "Enhanced SRD",
     "description": "A collection of content",
-    "version": "1.1.0",
-    "compatability": {
-        "minimum": "10",
-        "verified": "10",
-        },
+    "version": "1.1.1",
     "authors": [
         {
             "name": "Local Wizard",
             "discord": "Deltinum#4795"
         }
     ],
+    "packs": [
+        {
+            "name": "esrd-creatures",
+            "label": "Creatures (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-creatures.db",
+            "type": "Actor"
+        },
+        {
+            "name": "esrd-actions",
+            "label": "Actions (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-actions.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-backgrounds",
+            "label": "Backgrounds (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-backgrounds.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-class-features",
+            "label": "Class Features (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-class-features.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-classes-subclasses",
+            "label": "Classes & Subclasses (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-classes-subclasses.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-conditions-diseases",
+            "label": "Conditions & Diseases (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-conditions-diseases.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-cults-supernatural-boons",
+            "label": "Cults & Supernatural Boons (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-cults-supernatural-boons.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-feats",
+            "label": "Feats (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-feats.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-items",
+            "label": "Items (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-items.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-other-features",
+            "label": "Other Options & Features (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-other-features.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-races",
+            "label": "Races (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-races.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-spells",
+            "label": "Spells (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-spells.db",
+            "type": "Item"
+        },
+        {
+            "name": "esrd-deities",
+            "label": "Deities (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-deities.db",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "esrd-languages",
+            "label": "Languages (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-languages.db",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "esrd-optional-rules",
+            "label": "Optional & Variant Rules (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-optional-rules.db",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "esrd-recipes",
+            "label": "Recipes (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-recipes.db",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "esrd-tables",
+            "label": "Tables (ESRD)",
+            "system": "dnd5e",
+            "path": "packs/esrd-tables.db",
+            "type": "RollTable"
+        }
+    ],
+    "url": "https://github.com/Deltinum/enhanced-srd",
+    "manifest": "https://github.com/Deltinum/enhanced-srd/raw/main/module.json",
+    "download": "https://github.com/Deltinum/enhanced-srd/raw/main/enhanced-srd.zip",
+    "id": "enhanced-srd",
     "relationships": {
         "systems": [
             {
                 "id": "dnd5e",
                 "type": "system",
-                "compatability": {}
+                "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+                "compatability": {
+                    "verified": "2.0.2"
+                }
             }
         ]
     },
-    "packs": [
-        {
-            "name": "esrd-creatures",
-            "label": "Creatures (ESRD)",
-            "path": "./packs/esrd-creatures.db",
-            "type": "Actor"
-            "private": false
-        },
-        {
-            "name": "esrd-actions",
-            "label": "Actions (ESRD)",
-            "path": "./packs/esrd-actions.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-backgrounds",
-            "label": "Backgrounds (ESRD)",
-            "path": "./packs/esrd-backgrounds.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-class-features",
-            "label": "Class Features (ESRD)",
-            "path": "./packs/esrd-class-features.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-classes-subclasses",
-            "label": "Classes & Subclasses (ESRD)",
-            "path": "./packs/esrd-classes-subclasses.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-conditions-diseases",
-            "label": "Conditions & Diseases (ESRD)",
-            "path": "./packs/esrd-conditions-diseases.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-cults-supernatural-boons",
-            "label": "Cults & Supernatural Boons (ESRD)",
-            "path": "./packs/esrd-cults-supernatural-boons.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-feats",
-            "label": "Feats (ESRD)",
-            "path": "./packs/esrd-feats.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-items",
-            "label": "Items (ESRD)",
-            "path": "./packs/esrd-items.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-other-features",
-            "label": "Other Options & Features (ESRD)",
-            "path": "./packs/esrd-other-features.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-races",
-            "label": "Races (ESRD)",
-            "path": "./packs/esrd-races.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-spells",
-            "label": "Spells (ESRD)",
-            "path": "./packs/esrd-spells.db",
-            "type": "Item"
-            "private": false
-        },
-        {
-            "name": "esrd-deities",
-            "label": "Deities (ESRD)",
-            "path": "./packs/esrd-deities.db",
-            "type": "JournalEntry"
-            "private": false
-        },
-        {
-            "name": "esrd-languages",
-            "label": "Languages (ESRD)",
-            "path": "./packs/esrd-languages.db",
-            "type": "JournalEntry"
-            "private": false
-        },
-        {
-            "name": "esrd-optional-rules",
-            "label": "Optional & Variant Rules (ESRD)",
-            "path": "./packs/esrd-optional-rules.db",
-            "type": "JournalEntry"
-            "private": false
-        },
-        {
-            "name": "esrd-recipes",
-            "label": "Recipes (ESRD)",
-            "path": "./packs/esrd-recipes.db",
-            "type": "JournalEntry"
-            "private": false
-        },
-        {
-            "name": "esrd-tables",
-            "label": "Tables (ESRD)",
-            "path": "./packs/esrd-tables.db",
-            "type": "RollTable"
-            "private": false
-        }
+    "systems": [
+        "dnd5e"
     ],
-    "manifest": "https://github.com/Deltinum/enhanced-srd/raw/main/module.json",
-    "download": "https://github.com/Deltinum/enhanced-srd/raw/main/enhanced-srd.zip"
+    "compatability": {
+        "minimum": "10",
+        "verified": "10"
+    },
+
+    "name": "enhanced-srd",
+    "minimumCoreVersion": "10"
 }
